@@ -90,3 +90,17 @@ martasName.innerText = teamMembers[3].name
 martasRole.innerText = teamMembers[3].role
 martasEmail.innerHTML = teamMembers[3].email
 
+
+
+//Roberto Lorem
+const robertosImgProfile = document.getElementById('roberto-picture')
+const robertosName = document.getElementById('roberto-name')
+const robertosRole = document.getElementById('roberto-role')
+const robertosEmail = document.getElementById('roberto-email')
+
+robertosImgProfile.src =  teamMembers[4].img
+robertosName.innerText = teamMembers[4].name
+robertosRole.innerText = teamMembers[4].role
+robertosEmail.innerHTML = teamMembers[4].email
+
+
