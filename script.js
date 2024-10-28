@@ -64,4 +64,17 @@ laurasName.innerText = teamMembers[1].name
 laurasRole.innerText = teamMembers[1].role
 laurasEmail.innerHTML = teamMembers[1].email
 
+//Giogio Verdi
+
+const giorgiosImgProfile = document.getElementById('giorgio-picture')
+const giorgiosName = document.getElementById('giorgio-name')
+const giorgiosRole = document.getElementById('giorgio-role')
+const giorgiosEmail = document.getElementById('giorgio-email')
+
+giorgiosImgProfile.src =  teamMembers[2].img
+giorgiosName.innerText = teamMembers[2].name
+giorgiosRole.innerText = teamMembers[2].role
+giorgiosEmail.innerHTML = teamMembers[2].email
+
+
 
