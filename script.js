@@ -40,7 +40,7 @@ const teamMembers = [
   }
 ];
 
-
+//Marco Bianchi
 const marcosImgProfile = document.getElementById('marco-picture')
 const marcosName = document.getElementById('marco-name')
 const marcosRole = document.getElementById('marco-role')
@@ -50,5 +50,18 @@ marcosImgProfile.src =  teamMembers[0].img
 marcosName.innerText = teamMembers[0].name
 marcosRole.innerText = teamMembers[0].role
 marcosEmail.innerHTML = teamMembers[0].email
+
+
+//Laura Rossi
+
+const laurasImgProfile = document.getElementById('laura-picture')
+const laurasName = document.getElementById('laura-name')
+const laurasRole = document.getElementById('laura-role')
+const laurasEmail = document.getElementById('laura-email')
+
+laurasImgProfile.src =  teamMembers[1].img
+laurasName.innerText = teamMembers[1].name
+laurasRole.innerText = teamMembers[1].role
+laurasEmail.innerHTML = teamMembers[1].email
 
 
