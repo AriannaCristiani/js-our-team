@@ -104,3 +104,16 @@ robertosRole.innerText = teamMembers[4].role
 robertosEmail.innerHTML = teamMembers[4].email
 
 
+//Daniela Amet
+const danielasImgProfile = document.getElementById('daniela-picture')
+const danielasName = document.getElementById('daniela-name')
+const danielasRole = document.getElementById('daniela-role')
+const danielasEmail = document.getElementById('daniela-email')
+
+danielasImgProfile.src =  teamMembers[5].img
+danielasName.innerText = teamMembers[5].name
+danielasRole.innerText = teamMembers[5].role
+danielasEmail.innerHTML = teamMembers[5].email
+
+
+
