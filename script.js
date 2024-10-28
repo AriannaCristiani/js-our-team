@@ -52,8 +52,8 @@ marcosRole.innerText = teamMembers[0].role
 marcosEmail.innerHTML = teamMembers[0].email
 
 
-//Laura Rossi
 
+//Laura Rossi
 const laurasImgProfile = document.getElementById('laura-picture')
 const laurasName = document.getElementById('laura-name')
 const laurasRole = document.getElementById('laura-role')
@@ -64,8 +64,9 @@ laurasName.innerText = teamMembers[1].name
 laurasRole.innerText = teamMembers[1].role
 laurasEmail.innerHTML = teamMembers[1].email
 
-//Giogio Verdi
 
+
+//Giogio Verdi
 const giorgiosImgProfile = document.getElementById('giorgio-picture')
 const giorgiosName = document.getElementById('giorgio-name')
 const giorgiosRole = document.getElementById('giorgio-role')
@@ -77,4 +78,15 @@ giorgiosRole.innerText = teamMembers[2].role
 giorgiosEmail.innerHTML = teamMembers[2].email
 
 
+
+//Marta Ipsum
+const martasImgProfile = document.getElementById('marta-picture')
+const martasName = document.getElementById('marta-name')
+const martasRole = document.getElementById('marta-role')
+const martasEmail = document.getElementById('marta-email')
+
+martasImgProfile.src =  teamMembers[3].img
+martasName.innerText = teamMembers[3].name
+martasRole.innerText = teamMembers[3].role
+martasEmail.innerHTML = teamMembers[3].email
 
